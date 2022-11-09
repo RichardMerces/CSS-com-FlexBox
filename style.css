@@ -1,0 +1,96 @@
+body {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-image: url("assets/img/textura.jpg");
+}
+
+a {
+    font-size: 25px;
+    color: white;
+    padding-left: 8px;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: bisque;
+}
+
+.menu {
+    background-color: #343a40;
+    padding: 20px;
+    margin-top: 10px;
+    margin: 0;
+}
+
+.menu li {
+    display: inline
+}
+
+.img-inicial {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-align: center;
+    max-width: 100%; 
+    display: inline;
+}
+
+.img-inicial img {
+    width: 1300px;
+    height: 350px;
+    max-width: 100%;
+}
+
+.conteudo {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.conteudo-contato {
+    padding-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.paragrafos {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.info {
+    text-align: left;
+}
+
+.nome label {
+    margin-right: 10px;
+}
+
+.nome {
+    margin-bottom: 10px;
+}
+
+.email label {
+    margin-right: 18px;
+}
+
+.email {
+    margin-bottom: 10px;
+}
+
+.assunto label {
+    display: grid;
+}
+
+button { 
+    color: white;
+    background-color: #008CBA;
+    border: 1px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    opacity: 50%;
+}
