@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Contato</title>
 </head>
 <body>
@@ -19,33 +19,47 @@
         </ul>
     </div>
 
-    <div class="img-inicial">
-        <img src="assets/img/capa.jpg" alt="Imagem de Capa">
+    <div class="align-text">
+        <h1>Entre em contato conosco!</h1>
     </div>
 
-    <div class="conteudo-contato">
-        <h1>Entre em contato conosco!</h1>
-    
-        <div class="nome">
-            <label for="nome">Nome:</label>   
-            <input type="text" name="nome" id="nome">
-        </div>
-        <div class="email">
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email">
-        </div>
-        <div class="assunto">
-            <label for="assunto">Assunto:</label>
-            <textarea name="assunto" id="assunto" cols="50" rows="15"></textarea>
+    <div class="container">
+        <div class="pad-30">
+            <form class="form-flex">
+                <label for="nome">Nome:</label>   
+                <input class="mb-10" type="text" name="nome" id="nome">
+                <label for="email">Email:</label>
+                <input class="mb-10" type="email" name="email" id="email">
+                <label for="assunto">Assunto:</label>
+                <textarea class="mb-10" name="assunto" id="assunto" cols="50" rows="15"></textarea>
+                <button class="tm-btn" type="submit">Enviar</button>
+            </form>
         </div>
         
-        <button type="submit">Enviar</button>
-
-        <h2>Endereço da Empresa</h2>
-    
-        <p>Edereço: R. André Rocha, 838 - Taquara, Rio de Janeiro - RJ, 22710-560</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.680454359672!2d-43.3710114!3d-22.925154199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd8f645b0ea53%3A0x67aeb208f366db8b!2sUniversidade%20Est%C3%A1cio%20de%20S%C3%A1%20-%20Campus%20R9%20Taquara!5e0!3m2!1spt-BR!2sbr!4v1667913852732!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="pad-30">
+            <h2>Endereço da Empresa</h2>
+        
+            <p>Edereço: R. André Rocha, 838 - Taquara, Rio de Janeiro - RJ, 22710-560</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.680454359672!2d-43.3710114!3d-22.925154199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd8f645b0ea53%3A0x67aeb208f366db8b!2sUniversidade%20Est%C3%A1cio%20de%20S%C3%A1%20-%20Campus%20R9%20Taquara!5e0!3m2!1spt-BR!2sbr!4v1667913852732!5m2!1spt-BR!2sbr"  width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
 
     </div>
+    
+    <div class="footer pad-30 container">
+        <footer>
+            <div>
+                <a href="https://pt-br.facebook.com/" target="_blank">
+                    <img class="tm-img" src="assets/img/facebook.png" alt="facebook">
+                </a>
+                <a href="https://www.whatsapp.com/" target="_blank">
+                    <img class="tm-img" src="assets/img/whatsapp.png" alt="whatsapp">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img class="tm-img" src="assets/img/instagram.png" alt="instagram">
+                </a>
+            </div>
+            todos os direitos reservados &copy
+        </footer>
+</div>
 </body>
 </html>

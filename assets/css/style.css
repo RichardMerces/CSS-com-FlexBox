@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    background-image: url("assets/img/textura.jpg");
+}
+
+a {
+    font-size: 25px;
+    color: white;
+    padding-left: 8px;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: bisque;
+}
+
+.menu {
+    background-color: #343a40;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+    margin-top: 10px;
+    margin: 0;
+}
+
+.menu li {
+    display: inline
+}
+
+.img-inicial {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-align: center;
+    max-width: 100%; 
+    display: inline;
+}
+
+.img-inicial img {
+    width: 1300px;
+    height: 350px;
+    max-width: 100%;
+}
+
+.align-text h1 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.tm-mgt-timg {
+    margin-top: 40px;
+}
+
+.container p {
+    margin-top: 0;
+}
+
+.paragrafos {
+    text-align: justify;
+    max-width: 500px;
+}
+
+.text-font {
+    font-family: sans-serif;
+}
+
+.content-video {
+    flex-direction: column ;
+}
+
+.tm-mb {
+    margin-bottom: 0;
+}
+
+.tm-img {
+    height: 50px;
+    width: auto;
+}
+
+.footer {
+    background-color: #343a40;
+}
+
+.pad-30 {
+    padding: 30px;
+}
+
+.text-container {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.conteudo-contato {
+    padding-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-flex {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.tm-btn {
+    width: fit-content;
+    height: fit-content;
+}
+
+button { 
+    color: white;
+    background-color: #008CBA;
+    border: 1px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 50%;
+}
