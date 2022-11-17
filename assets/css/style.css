@@ -128,3 +128,7 @@ button {
 button:hover {
     opacity: 50%;
 }
+
+.text-red {
+    color: red;
+}

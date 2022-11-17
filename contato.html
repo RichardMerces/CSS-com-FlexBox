@@ -26,13 +26,20 @@
     <div class="container">
         <div class="pad-30">
             <form class="form-flex">
+
                 <label for="nome">Nome:</label>   
-                <input class="mb-10" type="text" name="nome" id="nome">
+                <input type="text" name="nome" id="nome" onkeyup="validaNome()">
+                <div class="mb-10 text-red" id="erroNome" ></div>
+
                 <label for="email">Email:</label>
-                <input class="mb-10" type="email" name="email" id="email">
+                <input type="email" name="email" id="email" onkeyup="validaEmail()">
+                <div  class="mb-10 text-red" id="erroEmail"></div>
+                
                 <label for="assunto">Assunto:</label>
-                <textarea class="mb-10" name="assunto" id="assunto" cols="50" rows="15"></textarea>
-                <button class="tm-btn" type="submit">Enviar</button>
+                <textarea name="assunto" id="assunto" cols="50" rows="15" onkeyup="validaAssunto()"></textarea>
+                <div class="mb-10 text-red" id="erroAssunto"></div>
+                
+                <button class="tm-btn" type="submit" onclick="enviar()">Enviar</button>
             </form>
         </div>
         
@@ -40,7 +47,7 @@
             <h2>Endereço da Empresa</h2>
         
             <p>Edereço: R. André Rocha, 838 - Taquara, Rio de Janeiro - RJ, 22710-560</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.680454359672!2d-43.3710114!3d-22.925154199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd8f645b0ea53%3A0x67aeb208f366db8b!2sUniversidade%20Est%C3%A1cio%20de%20S%C3%A1%20-%20Campus%20R9%20Taquara!5e0!3m2!1spt-BR!2sbr!4v1667913852732!5m2!1spt-BR!2sbr"  width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.680454359672!2d-43.3710114!3d-22.925154199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd8f645b0ea53%3A0x67aeb208f366db8b!2sUniversidade%20Est%C3%A1cio%20de%20S%C3%A1%20-%20Campus%20R9%20Taquara!5e0!3m2!1spt-BR!2sbr!4v1667913852732!5m2!1spt-BR!2sbr"  width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa" onmousemove="mapaZoom()" onmouseout="mapaNormal()"></iframe>
         </div>
 
     </div>
@@ -61,5 +68,6 @@
             todos os direitos reservados &copy
         </footer>
 </div>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
